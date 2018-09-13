@@ -1,0 +1,18 @@
+<% include partials/header %>
+
+<div>
+    <h1><%= campground.name %></h1>
+</div>
+
+<div class="thumbnail col-md-6 col-sm-6">
+    <img src="<%= campground.image %>" >
+    <div class="text-center">
+    <a href="/index" class="btn btn-primary">GO BACK</a>
+    </div>
+</div>
+
+<div class="col-md-3 cole-sm-3">
+    <p><%= campground.description %></p>
+</div>
+
+<% include partials/footer %>
